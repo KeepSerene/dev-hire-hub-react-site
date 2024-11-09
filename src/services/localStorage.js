@@ -63,11 +63,11 @@ export async function createJob(newJob) {
 
     const jobWithId = { ...newJob, id };
 
-    const updatedJobs = [...currentJobs, jobWithId];
+    const updatedJobs = [jobWithId, ...currentJobs];
 
     localStorage.setItem(JOBS_KEY, JSON.stringify(updatedJobs));
 
-    // Notify subscribers of the change, i.e., call fetchJobs() (see JobList.jsx)
+    // Notify subscribers of the change: call fetchJobs() (see JobList.jsx)
     notifySubscribers();
 
     return jobWithId;

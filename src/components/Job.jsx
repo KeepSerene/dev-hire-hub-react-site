@@ -35,7 +35,7 @@ function Job({ job }) {
           </button>
         )}
 
-        <h3 className="text-indigo-500 capitalize mb-2">{job.salary} / Year</h3>
+        <p className="text-indigo-500 capitalize mb-2">{job.salary} / Year</p>
 
         <div className="border border-gray-100 mb-5"></div>
 

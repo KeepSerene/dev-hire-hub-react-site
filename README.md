@@ -2,7 +2,7 @@
 
 A modern, responsive job board application built with React, focusing on developer positions. DevHire Hub provides a seamless experience for browsing, posting, and managing job listings with a clean and accessible interface.
 
-![DevHire Hub Preview](preview-image-url)
+![DevHire Hub Preview](./public/homepage.png)
 
 ## 🌟 Live Demo
 
@@ -84,11 +84,11 @@ Future updates will include integration with a full REST API backend.
 
 ## 👨‍💻 Author
 
-**Your Name**
+**Dhrubajyoti Bhattacharjee**
 
-- GitHub: [@your-github-username](https://github.com/your-github-username)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/your-linkedin)
-- Portfolio: [Your Portfolio](https://your-portfolio.com)
+- GitHub: [@KeepSerene](https://github.com/KeepSerene)
+- LinkedIn: [Dhrubajyoti Bhattacharjee](https://www.linkedin.com/in/dhrubajyoti-bhattacharjee-320822318/)
+- Portfolio: [MathToDev](https://math-to-dev.vercel.app/)
 
 ## 📄 License
 
@@ -102,4 +102,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ---
 
-Made with ❤️ by [Your Name]
+Made with ❤️ by Dhrubajyoti Bhattacharjee
