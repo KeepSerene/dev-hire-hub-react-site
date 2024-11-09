@@ -14,7 +14,7 @@ function JobPage({ deleteJob }) {
 
   const handleDelete = (jobId) => {
     const isConfirmed = confirm(
-      `Are you sure you want to delete "${job.title}" job?`
+      `Are you sure you want to delete ${job.title.toUpperCase()} job?`
     );
 
     if (!isConfirmed) return;
