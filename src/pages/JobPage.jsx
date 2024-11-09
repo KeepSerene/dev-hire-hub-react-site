@@ -13,7 +13,9 @@ function JobPage({ deleteJob }) {
   const navigate = useNavigate();
 
   const handleDelete = (jobId) => {
-    const isConfirmed = confirm("Are you sure you want to delete the job?");
+    const isConfirmed = confirm(
+      `Are you sure you want to delete "${job.title}" job?`
+    );
 
     if (!isConfirmed) return;
 

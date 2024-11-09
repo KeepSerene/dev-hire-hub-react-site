@@ -6,7 +6,7 @@ A modern, responsive job board application built with React, focusing on develop
 
 ## 🌟 Live Demo
 
-[Experience DevHire Hub](your-live-demo-link) - Coming soon!
+[Experience DevHire Hub](https://dev-hire-hub.vercel.app/)
 
 ## ✨ Features
 
